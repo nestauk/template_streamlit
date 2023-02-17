@@ -28,10 +28,8 @@ st.set_page_config(
 
 def app(app_title: str):
     """
-password before app gets displayed -> general pw default, but options of no password or rbac
-tabs on the side
-about the data on each tab
-"""
+    THIS IS A TEMPLATE APP TO GET YOU STARTED WITH BUILDING STREAMLIT APPS
+    """
     header = st.container()
     with header:
         #nesta logo
