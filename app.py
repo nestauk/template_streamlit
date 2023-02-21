@@ -54,7 +54,7 @@ def app(app_title: str):
     #this creates a sidebar on the left of the app with the option menu    
     with st.sidebar:
         choose = option_menu(
-        APP_TITLE,
+        app_title,
         ["PAGE_TITLE1", "PAGE_TITLE2", # replace with your desired page title names
         ],
         icons=["bookmark-star", "bookmark-star" #bookmarks can be any icons available from https://icons.getbootstrap.com/
